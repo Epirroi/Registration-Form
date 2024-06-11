@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="register.php" method="post">
+            <div class="form-group">
+                <input type="text" class="form-control" name="fullname" placeholder="Full Name:">
+            </div>
+
+            <div class="form-group">
+                <input type="email" class="form-control" name="email" placeholder="Email:">
+            </div>
+
+            <div class="form-group">
+                <input type="password" autocomplete="new-password" class="form-control" name="password" placeholder="Password:">
+            </div>
+
+            <div class="form-group">
+                <input type="text" class="form-control" name="repeat_password" placeholder="Repeat Password:">
+            </div>
+
+            <div class="form-btn">
+                <input type="submit" class="btn btn-primary" value="Register" name="submit">
+            </div>
+        </form>
+    </div>
+    <!-- end container -->
+
+</body>
+
+</html>
